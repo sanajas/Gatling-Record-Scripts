@@ -1,0 +1,10 @@
+{
+  "simulation": "computerdatabase.FeedcsvFile",
+  "simulationId": "feedcsvfile",
+  "start": 1661247831662,
+  "description": "k",
+  "scenarios": ["csv file reader "],
+  "assertions": [
+
+  ]
+}
