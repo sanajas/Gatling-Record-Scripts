@@ -1,0 +1,10 @@
+{
+  "simulation": "src.test.scala.gorestapi.GetAllUsers",
+  "simulationId": "getallusers",
+  "start": 1661265044126,
+  "description": "gf",
+  "scenarios": ["My First Get users API Test"],
+  "assertions": [
+
+  ]
+}
