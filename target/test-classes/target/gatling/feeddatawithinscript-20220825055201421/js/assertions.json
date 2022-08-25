@@ -1,0 +1,10 @@
+{
+  "simulation": "src.test.scala.gorestapi.FeedDataWithinScript",
+  "simulationId": "feeddatawithinscript",
+  "start": 1661406721421,
+  "description": "sa",
+  "scenarios": ["Script - retrieving test data within script "],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "simulation": "src.test.scala.gorestapi.CheckResponseJsonPath",
+  "simulationId": "checkresponsejsonpath",
+  "start": 1661353869592,
+  "description": "ok",
+  "scenarios": ["Checking the response in json path"],
+  "assertions": [
+
+  ]
+}

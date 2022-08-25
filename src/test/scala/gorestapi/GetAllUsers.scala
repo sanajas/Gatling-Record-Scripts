@@ -17,7 +17,9 @@ class GetAllUsers extends Simulation{
 
   val scn = scenario("My First Get users API Test")
     .exec(http(requestName = "Get all Users API")
-      .get("/public-api/users"))
+      .get("/public-api/users")
+      .check(bodyString.saveAs("responseBody")))
+      .exec { session => println(session("responseBody").as[String]); session }
 
   // 3 Load Scenario
 

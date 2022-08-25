@@ -1,0 +1,6 @@
+RUN	src.test.scala.gorestapi.CheckResponseCode	checkresponsecode	1661340667345	jj	3.3.1
+USER	adding pause inbetween - 3 calls	1	START	1661340670141	1661340670141
+REQUEST	1		Get all Users in api - First call	1661340670163	1661340674401	OK	 
+REQUEST	1		Get all Users in api - Second call	1661340679416	1661340679954	KO	status.find.is(404), but actually found 200
+REQUEST	1		Get all Users in api - Third call	1661340689194	1661340689359	OK	 
+USER	adding pause inbetween - 3 calls	1	END	1661340670141	1661340689365

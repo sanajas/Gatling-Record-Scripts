@@ -1,0 +1,6 @@
+RUN	src.test.scala.gorestapi.CheckResponseExtractNPrint	checkresponseextractnprint	1661406373777	s	3.3.1
+USER	Checking the response in json path	1	START	1661406376344	1661406376344
+REQUEST	1		Get one user data 	1661406376372	1661406379766	KO	jsonPath($.data.name).find.is(The Hon. Charuchandra Tagore), but actually found Subhash Mukhopadhyay
+REQUEST	1		Get all user data and save one data in some variable 	1661406379842	1661406380033	KO	jsonPath($..1.id).find.exists, found nothing
+ERROR	Get all userid which was saved in variable and compare the value : Failed to build request: No attribute named 'UserId' is defined 	1661406380046
+USER	Checking the response in json path	1	END	1661406376344	1661406380058

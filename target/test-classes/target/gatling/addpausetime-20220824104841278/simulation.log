@@ -1,0 +1,6 @@
+RUN	src.test.scala.VideoGameDb.AddPauseTime	addpausetime	1661338121278	3	3.3.1
+USER	adding pause inbetween - 3 calls	1	START	1661338124080	1661338124080
+REQUEST	1		Get all games - 1st call 	1661338124105	1661338128687	OK	 
+REQUEST	1		Get specific game - 2nd call 	1661338133713	1661338133890	OK	 
+REQUEST	1		Get all games again - 3rd  call 	1661338142094	1661338142274	OK	 
+USER	adding pause inbetween - 3 calls	1	END	1661338124080	1661338145283

@@ -1,0 +1,4 @@
+RUN	src.test.scala.gorestapi.CheckResponseJsonPath	checkresponsejsonpath	1661353939457	f	3.3.1
+USER	Checking the response in json path	1	START	1661353941780	1661353941780
+REQUEST	1		Get one user data 	1661353941800	1661353945321	OK	 
+USER	Checking the response in json path	1	END	1661353941780	1661353950348

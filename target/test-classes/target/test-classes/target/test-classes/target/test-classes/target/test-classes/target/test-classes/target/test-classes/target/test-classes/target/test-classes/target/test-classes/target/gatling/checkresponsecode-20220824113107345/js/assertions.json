@@ -1,0 +1,10 @@
+{
+  "simulation": "src.test.scala.gorestapi.CheckResponseCode",
+  "simulationId": "checkresponsecode",
+  "start": 1661340667345,
+  "description": "jj",
+  "scenarios": ["adding pause inbetween - 3 calls"],
+  "assertions": [
+
+  ]
+}

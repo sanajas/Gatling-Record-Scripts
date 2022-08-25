@@ -1,0 +1,317 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 3,
+        "ok": 2,
+        "ko": 1
+    },
+    "minResponseTime": {
+        "total": 269,
+        "ok": 269,
+        "ko": 306
+    },
+    "maxResponseTime": {
+        "total": 3844,
+        "ok": 3844,
+        "ko": 306
+    },
+    "meanResponseTime": {
+        "total": 1473,
+        "ok": 2057,
+        "ko": 306
+    },
+    "standardDeviation": {
+        "total": 1677,
+        "ok": 1788,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 306,
+        "ok": 2057,
+        "ko": 306
+    },
+    "percentiles2": {
+        "total": 2075,
+        "ok": 2950,
+        "ko": 306
+    },
+    "percentiles3": {
+        "total": 3490,
+        "ok": 3665,
+        "ko": 306
+    },
+    "percentiles4": {
+        "total": 3773,
+        "ok": 3808,
+        "ko": 306
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 33
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 1,
+    "percentage": 33
+},
+    "group4": {
+    "name": "failed",
+    "count": 1,
+    "percentage": 33
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.15,
+        "ok": 0.1,
+        "ko": 0.05
+    }
+},
+"contents": {
+"req_get-all-users-i-90266": {
+        "type": "REQUEST",
+        "name": "Get all Users in api - First call",
+"path": "Get all Users in api - First call",
+"pathFormatted": "req_get-all-users-i-90266",
+"stats": {
+    "name": "Get all Users in api - First call",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 3844,
+        "ok": 3844,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 3844,
+        "ok": 3844,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 3844,
+        "ok": 3844,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 3844,
+        "ok": 3844,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 3844,
+        "ok": 3844,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 3844,
+        "ok": 3844,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 3844,
+        "ok": 3844,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.05,
+        "ok": 0.05,
+        "ko": 0
+    }
+}
+    },"req_get-all-users-i-c6281": {
+        "type": "REQUEST",
+        "name": "Get all Users in api - Second call",
+"path": "Get all Users in api - Second call",
+"pathFormatted": "req_get-all-users-i-c6281",
+"stats": {
+    "name": "Get all Users in api - Second call",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 0,
+        "ko": 1
+    },
+    "minResponseTime": {
+        "total": 306,
+        "ok": 0,
+        "ko": 306
+    },
+    "maxResponseTime": {
+        "total": 306,
+        "ok": 0,
+        "ko": 306
+    },
+    "meanResponseTime": {
+        "total": 306,
+        "ok": 0,
+        "ko": 306
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 306,
+        "ok": 0,
+        "ko": 306
+    },
+    "percentiles2": {
+        "total": 306,
+        "ok": 0,
+        "ko": 306
+    },
+    "percentiles3": {
+        "total": 306,
+        "ok": 0,
+        "ko": 306
+    },
+    "percentiles4": {
+        "total": 306,
+        "ok": 0,
+        "ko": 306
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 1,
+    "percentage": 100
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.05,
+        "ok": 0,
+        "ko": 0.05
+    }
+}
+    },"req_get-all-users-i-8ee24": {
+        "type": "REQUEST",
+        "name": "Get all Users in api - Third call",
+"path": "Get all Users in api - Third call",
+"pathFormatted": "req_get-all-users-i-8ee24",
+"stats": {
+    "name": "Get all Users in api - Third call",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 269,
+        "ok": 269,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 269,
+        "ok": 269,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 269,
+        "ok": 269,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 269,
+        "ok": 269,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 269,
+        "ok": 269,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 269,
+        "ok": 269,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 269,
+        "ok": 269,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.05,
+        "ok": 0.05,
+        "ko": 0
+    }
+}
+    }
+}
+
+}

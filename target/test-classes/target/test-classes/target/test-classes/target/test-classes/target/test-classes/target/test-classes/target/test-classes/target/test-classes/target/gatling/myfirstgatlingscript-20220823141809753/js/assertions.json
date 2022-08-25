@@ -1,0 +1,10 @@
+{
+  "simulation": "src.test.scala.VideoGameDb.MyFirstGatlingScript",
+  "simulationId": "myfirstgatlingscript",
+  "start": 1661264289753,
+  "description": "gf",
+  "scenarios": ["MyFirst Test"],
+  "assertions": [
+
+  ]
+}

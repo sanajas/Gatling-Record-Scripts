@@ -1,0 +1,4 @@
+RUN	src.test.scala.gorestapi.CheckResponseJsonPath	checkresponsejsonpath	1661353869592	ok	3.3.1
+USER	Checking the response in json path	1	START	1661353872278	1661353872278
+REQUEST	1		Get one user data 	1661353872298	1661353875949	KO	jsonPath($.data.name).find.is(The Hon. Charuchandra Tagore), but actually found nothing
+USER	Checking the response in json path	1	END	1661353872278	1661353880968

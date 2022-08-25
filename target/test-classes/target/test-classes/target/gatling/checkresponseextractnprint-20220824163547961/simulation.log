@@ -1,0 +1,6 @@
+RUN	src.test.scala.gorestapi.CheckResponseExtractNPrint	checkresponseextractnprint	1661358947961	k	3.3.1
+USER	Checking the response in json path	1	START	1661358950376	1661358950376
+REQUEST	1		Get one user data 	1661358950393	1661358953976	OK	 
+REQUEST	1		Get all user data and save one data in some variable 	1661358954055	1661358954464	KO	jsonPath($.data.1.id).find.exists, found nothing
+REQUEST	1		Get all userid which was saved in variable and compare the value 	1661358954474	1661358954607	KO	jsonPath($.data.[1].name).find.is(Aatreya Guha) preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (SequenceInputStream); line: 1, column: 2]
+USER	Checking the response in json path	1	END	1661358950376	1661358954629

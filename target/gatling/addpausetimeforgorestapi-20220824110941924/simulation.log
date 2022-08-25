@@ -1,0 +1,6 @@
+RUN	src.test.scala.gorestapi.AddPauseTimeForGoRestAPI	addpausetimeforgorestapi	1661339381924	de	3.3.1
+USER	adding pause inbetween - 3 calls	1	START	1661339384822	1661339384822
+REQUEST	1		Get all Users in api - First call	1661339384848	1661339388830	OK	 
+REQUEST	1		Get all Users in api - Second call	1661339393849	1661339394121	OK	 
+REQUEST	1		Get all Users in api - Third call	1661339400189	1661339400471	OK	 
+USER	adding pause inbetween - 3 calls	1	END	1661339384822	1661339400480

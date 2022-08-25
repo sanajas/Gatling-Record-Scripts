@@ -1,0 +1,5 @@
+RUN	computerdatabase.FeedcsvFile	feedcsvfile	1661248289996	w	3.3.1
+USER	csv file reader 	1	START	1661248292533	1661248292533
+REQUEST	1		get a single user request #{userid}	1661248292558	1661248292561	KO	j.n.UnknownHostException: gorest.co.inpublic-api: nodename nor servname provided, or not known
+REQUEST	1		get a single user request #{userid}	1661248292567	1661248292567	KO	j.n.UnknownHostException: gorest.co.inpublic-api
+USER	csv file reader 	1	END	1661248292533	1661248292572

@@ -1,0 +1,10 @@
+{
+  "simulation": "src.test.scala.gorestapi.CheckResponseExtractNPrint",
+  "simulationId": "checkresponseextractnprint",
+  "start": 1661358906536,
+  "description": "k",
+  "scenarios": ["Checking the response in json path"],
+  "assertions": [
+
+  ]
+}

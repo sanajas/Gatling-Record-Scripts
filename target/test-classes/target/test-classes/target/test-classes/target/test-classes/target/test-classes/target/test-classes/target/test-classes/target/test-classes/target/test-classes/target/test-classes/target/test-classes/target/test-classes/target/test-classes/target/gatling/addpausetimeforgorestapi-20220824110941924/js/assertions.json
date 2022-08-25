@@ -1,0 +1,10 @@
+{
+  "simulation": "src.test.scala.gorestapi.AddPauseTimeForGoRestAPI",
+  "simulationId": "addpausetimeforgorestapi",
+  "start": 1661339381924,
+  "description": "de",
+  "scenarios": ["adding pause inbetween - 3 calls"],
+  "assertions": [
+
+  ]
+}
