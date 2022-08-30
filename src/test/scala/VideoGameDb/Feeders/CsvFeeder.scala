@@ -14,13 +14,13 @@ class CsvFeeder extends Simulation {
   // 2 Scenarios Definition
   // 2 Scenarios Definition
 
-  val csvFeeder = csv("src/test/scala/Data/gameCsvFileVG.csv").circular
+  val csvFeeder = csv("Data/gameCsvFileVG.csv").circular
 
-  /*def getSpecificVideoGame()= {
+  def getSpecificVideoGame()= {
     repeat(3) {
       feed(csvFeeder)
-        .exec(http(requestName = "get specific Videogame #{gameName}")
-          .get("/videogame/#{gameId}")
+        .exec(http(requestName = "get specific Videogame ${gameName}")
+          .get("/videogame/${gameId}")
           //.check(jsonPath("$.name").is(expected ="#{gameName}"))
           //.check(status.is(expected = 200)))
           .check(bodyString.saveAs("responseBody")))
@@ -30,24 +30,13 @@ class CsvFeeder extends Simulation {
 
         .pause(5)
     }
-  }*/
+  }
 
   val scn = scenario("CSV Feeder Test ")
-  repeat(3) {
-    feed(csvFeeder)
-      .exec(http(requestName = "get gg ff sspecific Videogame #{gameName}")
-        .get("/videogame/#{gameId}")
-        //.check(jsonPath("$.name").is(expected ="#{gameName}"))
-        //.check(status.is(expected = 200)))
-        .check(bodyString.saveAs("responseBody")))
 
-      //Printing the value on console
-      .exec { session => println(session("responseBody").as[String]); session }
+    .exec(getSpecificVideoGame())
 
-      .pause(5)
-    /*.exec(getSpecificVideoGame())*/
 
-  }
     // 3 Load Scenario
 
     setUp(scn.inject(atOnceUsers(1))).protocols(httpProtocol)
