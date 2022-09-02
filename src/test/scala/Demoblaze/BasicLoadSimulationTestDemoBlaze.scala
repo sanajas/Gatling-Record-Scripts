@@ -134,7 +134,9 @@ class BasicLoadSimulationTestDemoBlaze extends Simulation {
             .headers(SelectOption)
             .body(RawFileBody("src/test/scala/JsonData/Category.json")))
             .check(bodyString.saveAs("responseBody"))
-    )
+        .check(status.in(200 to 210))
+        .check(jsonPath("$.id").is("1")))
+
         //Printing the value on console
         .exec { session => println(session("responseBody").as[String]); session }
 
@@ -151,9 +153,13 @@ class BasicLoadSimulationTestDemoBlaze extends Simulation {
             .post(uri2 + "/view")
             .headers(SelectOption)
             .body(RawFileBody("src/test/scala/JsonData/Productid.json")))
-            .check(bodyString.saveAs("responseBodyId"))
-    )
-        .exec { session => println(session("responseBodyId").as[String]); session }
+        .check(bodyString.saveAs("responseBodyProduct"))
+        .check(status.in(200 to 210)))
+       // .check(jsonPath("$.title").is("Samsung galaxy s6")))
+
+    .exec { session => println(session("responseBodyProduct").as[String]); session }
+
+    .exec { session => println(session); session }
 
 
 
